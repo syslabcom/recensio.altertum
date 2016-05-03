@@ -10,6 +10,12 @@
     layer="recensio.altertum.interfaces.IAltertumLayer"
     />
 
+  <browser:resourceDirectory
+    name="recensio.altertum.stylesheets"
+    directory="stylesheets"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    />
+
   <browser:viewlet
     name="bottom_links"
     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
