@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="recensio.altertum">
+
+  <browser:resourceDirectory
+    name="recensio.altertum.images"
+    directory="images"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    />
+
+  <browser:viewlet
+    name="bottom_links"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class="recensio.policy.browser.footer_viewlet.Footer"
+    template="templates/footer.pt"
+    permission="zope2.View"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    />
+
+</configure>

@@ -1,0 +1,5 @@
+recursive-include recensio *
+include CHANGES.txt
+include README.txt
+global-exclude *pyc
+

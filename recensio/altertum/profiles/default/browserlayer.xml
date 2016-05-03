@@ -1,0 +1,6 @@
+<layers>
+    <layer
+        name="recensio.altertum"
+        interface="recensio.altertum.interfaces.IAltertumLayer"
+        />
+</layers>
