@@ -25,4 +25,13 @@
     layer="recensio.altertum.interfaces.IAltertumLayer"
     />
 
+  <browser:page
+    for="recensio.contenttypes.interfaces.IReview"
+    name="generate-pdf-recension"
+    allowed_interface="recensio.theme.browser.interfaces.IGeneratePdfRecension"
+    class=".views.GeneratePdfRecensionAltertum"
+    permission="zope2.View"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    />
+
 </configure>
