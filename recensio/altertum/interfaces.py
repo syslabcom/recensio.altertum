@@ -1,5 +1,5 @@
-from zope.interface import Interface
+from recensio.theme.interfaces import IRecensioLayer
 
 
-class IAltertumLayer(Interface):
+class IAltertumLayer(IRecensioLayer):
     pass
