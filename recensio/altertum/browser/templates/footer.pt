@@ -25,12 +25,12 @@
           <a href="http://www.bsb-muenchen.de/"
              ><img tal:attributes="src string:${portal_url}/imgs/logos/bsb_logo.gif" src="imgs/logos/bsb_logo.gif"
              alt="Logo der Bayerischen Staatsbibliothek" /></a>
-          <a href="http://www.uni-koeln.de/"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/unikoeln-logo.png" src="imgs/logos/unikoeln-logo.png"
-             alt="Logo der Universität Köln" /></a>
-          <a href="http://www.ieg-mainz.de/likecms/index.php"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/ieg_logo.png" src="imgs/logos/ieg_logo.jpg"
-             alt="Logo des Institus für europäische Geschichte" /></a>
+          <a href="http://www.ub.uni-heidelberg.de/"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_ubhd.png" src="imgs/logos/logo_ubhd.png"
+             alt="Logo der Universitätsbibliothek Heidelberg" /></a>
+          <a href="http://www.dfg.de/"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_dfg.jpg" src="imgs/logos/logo_dfg.jpg"
+             alt="Logo der Deutschen Forschungsgemeinschaft" /></a>
       </div>
 
       <div id="notes">
