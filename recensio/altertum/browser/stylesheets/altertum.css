@@ -1,3 +1,29 @@
 body {
-	background: #efd0e6 url(++resource++recensio.altertum.images/bg.png) no-repeat 0 0;
+	background: #F1F1F1 0 0;
+    color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #A68331;
+}
+a,
+.template-browse-topics .submenu_title {
+    color: #0060AA;
+}
+a:hover,
+a:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+.searchResults .title a.state-published {
+    color: #0060AA !important;
+}
+#navigation ul,
+.login_links a,
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines,
+#kommentare_container .reply {
+   background-color: #F1F1F1;
+}
+.template-browse-topics .submenu-lvl2 {
+   background-color: #F5F5F5;
 }
