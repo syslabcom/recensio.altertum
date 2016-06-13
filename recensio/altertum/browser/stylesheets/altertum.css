@@ -32,3 +32,10 @@ body.template-homepage-view .box a.two-lines,
 .template-browse-topics .submenu-lvl2 {
    background-color: #F5F5F5;
 }
+
+body.template-homepage-view .portletTALPortlet p {
+	background: #F1F1F1 0 0;
+}
+body.template-homepage-view .portletTALPortlet p .redPortletHeader {
+    color: #A68331;
+}
