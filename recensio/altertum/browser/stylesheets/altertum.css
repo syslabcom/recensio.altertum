@@ -17,6 +17,10 @@ a:focus {
 .searchResults .title a.state-published {
     color: #0060AA !important;
 }
+dl.searchResults dt.foreign,
+dl.searchResults dd.foreign {
+    background-color: inherit;
+}
 #navigation ul,
 .login_links a,
 body.template-homepage-view .box a.one-line,
