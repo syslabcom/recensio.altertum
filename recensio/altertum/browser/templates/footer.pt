@@ -43,12 +43,12 @@
   </div>
 
   <img id="recensio_logo"
-       src="++resource++recensio.altertum.images/de/logo_altertum.png"
-       tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/${language}/logo_altertum.png"
+       src="++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
+       tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
        title="Altertum"
        alt="Altertum Logo"/>
 
   <img id="page_image"
-       tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/mainimage_${language}.png"/> 
+       tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/mainimage.jpg"/> 
 
 </div>
