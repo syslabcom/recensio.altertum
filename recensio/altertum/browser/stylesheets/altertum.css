@@ -22,7 +22,12 @@ a:focus {
 body.template-homepage-view .box a.one-line,
 body.template-homepage-view .box a.two-lines,
 #kommentare_container .reply {
-   background-color: #F1F1F1;
+    background-color: #FFFFFF;
+}
+#navigation a,
+#navigation a:visited {
+    font-family: 'Ubuntu', Arial, 'Neue Helvetica', sans-serif;
+    color: #0060AA;
 }
 .template-browse-topics .submenu-lvl2 {
    background-color: #F5F5F5;
