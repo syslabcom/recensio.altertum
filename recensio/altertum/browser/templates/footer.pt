@@ -22,14 +22,14 @@
             recensio.net ist ein Gemeinschaftsprojekt folgender Institutionen
           </span>
           </span><br />
-          <a href="http://www.bsb-muenchen.de/"
-             ><img tal:attributes="src string:${portal_url}/imgs/logos/bsb_logo.gif" src="imgs/logos/bsb_logo.gif"
-             alt="Logo der Bayerischen Staatsbibliothek" /></a>
           <a href="http://www.ub.uni-heidelberg.de/"
              ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_ubhd.png" src="imgs/logos/logo_ubhd.png"
              alt="Logo der Universitätsbibliothek Heidelberg" /></a>
+          <a href="http://www.bsb-muenchen.de/"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_bsb.png" src="imgs/logos/logo_bsb.png"
+             alt="Logo der Bayerischen Staatsbibliothek" /></a>
           <a href="http://www.dfg.de/"
-             ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_dfg.jpg" src="imgs/logos/logo_dfg.jpg"
+             ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_dfg.png" src="imgs/logos/logo_dfg.png"
              alt="Logo der Deutschen Forschungsgemeinschaft" /></a>
       </div>
 
