@@ -21,25 +21,61 @@ dl.searchResults dt.foreign,
 dl.searchResults dd.foreign {
     background-color: inherit;
 }
+#header,
 #navigation ul,
 .login_links a,
-body.template-homepage-view .box a.one-line,
-body.template-homepage-view .box a.two-lines,
 #kommentare_container .reply {
     background-color: #FFFFFF;
+}
+#recensio_logo {
+    margin-left: 20px;
+}
+#navigation ul#portal-globalnav {
+    padding-left: 0;
+}
+#navigation li {
+    text-transform: uppercase;
+    border-right: none;
+}
+ul#portal-globalnav li:first-child {
+    padding-left: 20px;
 }
 #navigation a,
 #navigation a:visited {
     font-family: 'Ubuntu', Arial, 'Neue Helvetica', sans-serif;
+    font-size: 125%;
     color: #0060AA;
 }
+#navigation ul#portal-globalnav,
+#page_image {
+    border-radius: 0;
+}
+.rounded_STYLE > .tr,
+.rounded_STYLE > .tl,
+.rounded_STYLE > .br,
+.rounded_STYLE > .bl {
+    background: none;
+}
+#footer p.logos {
+    text-align: center;
+}
+
+
 .template-browse-topics .submenu-lvl2 {
    background-color: #F5F5F5;
 }
 
-body.template-homepage-view .portletTALPortlet p {
+body.template-homepage-view .portletTALPortlet p,
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines,
+#footer {
 	background: #F1F1F1 0 0;
 }
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
     color: #A68331;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    background-color: #FAFAFA;
 }
