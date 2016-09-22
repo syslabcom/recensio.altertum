@@ -21,9 +21,11 @@ dl.searchResults dt.foreign,
 dl.searchResults dd.foreign {
     background-color: inherit;
 }
-#header,
+#container,
 #navigation ul,
 .login_links a,
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines,
 #kommentare_container .reply {
     background-color: #FFFFFF;
 }
@@ -59,6 +61,9 @@ ul#portal-globalnav li:first-child {
 #footer p.logos {
     text-align: center;
 }
+.column_footer span {
+    margin-left: 0;
+}
 
 
 .template-browse-topics .submenu-lvl2 {
@@ -66,8 +71,6 @@ ul#portal-globalnav li:first-child {
 }
 
 body.template-homepage-view .portletTALPortlet p,
-body.template-homepage-view .box a.one-line,
-body.template-homepage-view .box a.two-lines,
 #footer {
 	background: #F1F1F1 0 0;
 }
@@ -76,6 +79,16 @@ body.template-homepage-view .portletTALPortlet p .redPortletHeader {
 }
 input[type="text"]:focus,
 input[type="password"]:focus,
+#portal-searchbox input#searchGadget:focus,
 textarea:focus {
     background-color: #FAFAFA;
+}
+body.template-homepage-view .box a.one-line h2:before,
+body.template-homepage-view .box a.two-lines h2:before {
+    color: #A68331;
+}
+body.template-homepage-view .portletTALPortlet p {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
 }
