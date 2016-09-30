@@ -29,6 +29,10 @@ body.template-homepage-view .box a.two-lines,
 #kommentare_container .reply {
     background-color: #FFFFFF;
 }
+body.template-homepage-view .box a.one-line:hover,
+body.template-homepage-view .box a.two-lines:hover {
+    text-decoration: none;
+}
 #recensio_logo {
     margin-left: 20px;
 }
