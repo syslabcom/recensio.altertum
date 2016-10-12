@@ -96,3 +96,6 @@ body.template-homepage-view .portletTALPortlet p {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
 }
+body.template-homepage-view .portletTALPortlet p .arrow {
+    background-image: url(++resource++recensio.altertum.images/play-button_blue.png);
+}
