@@ -1,11 +1,11 @@
-recensio.theme Installation
+recensio.altertum Installation
 ------------------------------
 
-To install recensio.theme into the global Python environment (or a workingenv),
+To install recensio.altertum into the global Python environment (or a workingenv),
 using a traditional Zope 2 instance, you can do this:
 
 * When you're reading this you have probably already run 
-  ``easy_install recensio.theme``. Find out how to install setuptools
+  ``easy_install recensio.altertum``. Find out how to install setuptools
   (and EasyInstall) here:
   http://peak.telecommunity.com/DevCenter/EasyInstall
 
@@ -16,11 +16,11 @@ using a traditional Zope 2 instance, you can do this:
 
 into your Zope instance.
 
-* Create a file called ``recensio.theme-configure.zcml`` in the
+* Create a file called ``recensio.altertum-configure.zcml`` in the
   ``/path/to/instance/etc/package-includes`` directory.  The file
   should only contain this::
 
-    <include package="recensio.theme" />
+    <include package="recensio.altertum" />
 
 .. _pythonproducts: http://plone.org/products/pythonproducts
 
@@ -28,13 +28,13 @@ into your Zope instance.
 Alternatively, if you are using zc.buildout and the plone.recipe.zope2instance
 recipe to manage your project, you can do this:
 
-* Add ``recensio.theme`` to the list of eggs to install, e.g.:
+* Add ``recensio.altertum`` to the list of eggs to install, e.g.:
 
     [buildout]
     ...
     eggs =
         ...
-        recensio.theme
+        recensio.altertum
        
 * Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
 
@@ -42,7 +42,7 @@ recipe to manage your project, you can do this:
     recipe = plone.recipe.zope2instance
     ...
     zcml =
-        recensio.theme
+        recensio.altertum
       
 * Re-run buildout, e.g. with:
 
