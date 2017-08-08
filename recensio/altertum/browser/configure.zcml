@@ -34,4 +34,14 @@
     layer="recensio.altertum.interfaces.IAltertumLayer"
     />
 
+  <browser:viewlet
+    name="plone.comments2"
+    for="Products.CMFCore.interfaces.IContentish"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+    view="plone.app.layout.globals.interfaces.IViewView"
+    class=".viewlets.CommentsViewlet"
+    permission="zope2.View"
+    />
+
 </configure>

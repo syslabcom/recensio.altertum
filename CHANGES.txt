@@ -4,7 +4,8 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Custom explanation in comments viewlet (no email address). Refs #15699
+  [reinhardt]
 
 
 1.0.1 (2017-07-11)
