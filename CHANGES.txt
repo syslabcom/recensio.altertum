@@ -4,6 +4,8 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+- Added Propylaeum logo in footer. Refs #15816
+  [reinhardt]
 - Custom favicon. Refs #15816
   [reinhardt]
 - Custom explanation in comments viewlet (no email address). Refs #15699

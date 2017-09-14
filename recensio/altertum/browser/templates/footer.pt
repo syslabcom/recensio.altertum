@@ -32,6 +32,9 @@
               <a href="http://www.dfg.de/"
                  ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_dfg.png" src="imgs/logos/logo_dfg.png"
                  alt="Logo der Deutschen Forschungsgemeinschaft" /></a>
+              <a href="http://www.propylaeum.de/"
+                 ><img tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logos/logo_propylaeum_de.png" src="imgs/logos/logo_propylaeum_de.png"
+                 alt="Logo von Propylaeum" /></a>
           </p>
       </div>
 
