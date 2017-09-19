@@ -4,6 +4,8 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
+- Added custom logo link that points to navigation root. Refs #15816
+  [reinhardt]
 - Added Propylaeum logo in footer. Refs #15816
   [reinhardt]
 - Custom favicon. Refs #15816

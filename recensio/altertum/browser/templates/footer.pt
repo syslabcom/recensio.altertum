@@ -47,11 +47,15 @@
     </div>
   </div>
 
-  <img id="recensio_logo"
-       src="++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
-       tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
-       title="Altertum"
-       alt="Altertum Logo"/>
+  <a id="recensio_logo_anchor"
+     href="/"
+     tal:attributes="href context/@@plone_portal_state/navigation_root_url">
+    <img id="recensio_logo"
+         src="++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
+         tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png"
+         title="Altertum"
+         alt="Altertum Logo"/>
+   </a>
 
   <img id="page_image"
        tal:attributes="src string:${portal_url}/++resource++recensio.altertum.images/mainimage.jpg"/> 
