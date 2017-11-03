@@ -8,6 +8,8 @@ Changelog
   [reinhardt]
 - Fixed portal URL in comments viewlet. Refs #16044
   [reinhardt]
+- Removed original topic DDCs. Refs #16044
+  [reinhardt]
 
 
 1.1.0 (2017-09-21)
