@@ -9,6 +9,9 @@ a,
 .template-browse-topics .submenu_title {
     color: #0060AA;
 }
+svg.togglebutton path {
+  fill: #0060AA;
+}
 a:hover,
 a:focus {
     color: #23527c;
@@ -87,9 +90,9 @@ input[type="password"]:focus,
 textarea:focus {
     background-color: #FAFAFA;
 }
-body.template-homepage-view .box a.one-line h2:before,
-body.template-homepage-view .box a.two-lines h2:before {
-    color: #A68331;
+body.template-homepage-view .box a.one-line .play-button,
+body.template-homepage-view .box a.two-lines .play-button {
+    fill: #A68331;
 }
 body.template-homepage-view .portletTALPortlet p {
     border-radius: 0;
