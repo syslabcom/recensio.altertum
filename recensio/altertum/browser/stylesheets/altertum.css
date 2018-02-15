@@ -9,7 +9,7 @@ a,
 .template-browse-topics .submenu_title {
     color: #0060AA;
 }
-svg.togglebutton path {
+.submenu_title svg.togglebutton path {
   fill: #0060AA;
 }
 a:hover,
@@ -78,7 +78,9 @@ ul#portal-globalnav li:first-child {
 }
 
 body.template-homepage-view .portletTALPortlet p,
-#footer {
+#footer,
+#portletDownload,
+li.accordion-item {
 	background: #F1F1F1 0 0;
 }
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
