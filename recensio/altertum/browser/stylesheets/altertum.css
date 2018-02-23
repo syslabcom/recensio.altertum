@@ -17,6 +17,11 @@ a:focus {
     color: #23527c;
     text-decoration: underline;
 }
+
+#portal-personaltools {
+    visibility: hidden;
+}
+
 .searchResults .title a.state-published {
     color: #0060AA !important;
 }
