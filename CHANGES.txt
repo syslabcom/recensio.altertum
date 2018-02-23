@@ -6,6 +6,8 @@ Changelog
 
 - Adjusted background colours and SVG styling. Refs #16175
   [reinhardt]
+- Removed obsolete commenting viewlet. Refs #16221
+  [reinhardt]
 
 
 1.1.2 (2018-01-18)
