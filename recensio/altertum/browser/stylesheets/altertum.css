@@ -109,3 +109,7 @@ body.template-homepage-view .portletTALPortlet p {
 body.template-homepage-view .portletTALPortlet p .arrow {
     background-image: url(++resource++recensio.altertum.images/play-button_blue.png);
 }
+
+#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
+    display: none;
+}
