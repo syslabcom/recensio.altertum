@@ -88,6 +88,9 @@ body.template-homepage-view .portletTALPortlet p,
 li.accordion-item {
 	background: #F1F1F1 0 0;
 }
+li.accordion-item#citation dd {
+    margin-left: 0;
+}
 body.template-homepage-view .portletTALPortlet p .redPortletHeader {
     color: #A68331;
 }
