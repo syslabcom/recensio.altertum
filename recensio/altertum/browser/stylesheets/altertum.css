@@ -10,7 +10,7 @@ a,
     color: #0060AA;
 }
 .submenu_title svg.togglebutton path {
-  fill: #0060AA;
+    fill: #0060AA;
 }
 a:hover,
 a:focus {
@@ -20,6 +20,53 @@ a:focus {
 
 #portal-personaltools {
     visibility: hidden;
+}
+
+#portal-searchbox {
+    margin-top: 4.5em;
+}
+
+input#searchGadget {
+    background: #fafafa;
+    border: 1px solid #eeeeee;
+    font-size: 1.2em;
+}
+
+#social-media-header {
+    float: right; 
+    margin-top: 2.1em;
+}
+
+#social-media-buttons-header {
+    width: 85%;
+}
+
+
+#language {
+    position: absolute;
+    top: 3.9em;
+    right: 23%;  
+} 
+
+#navigation {
+    float: left; 
+}
+
+#navigation li {
+    border-bottom: 0.19em solid #0077bb;
+    text-transform: uppercase;
+    border-right: none;
+    line-height: 2.7em;
+    margin: 0 2px 0 15px;
+    padding: 0 5px 0 5px;
+}
+
+#navigation a {
+    font-family: 'Ubuntu', Arial, 'Neue Helvetica', sans-serif;
+    color: #0060AA;
+    font-size: 1.45em;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .searchResults .title a.state-published {
@@ -44,21 +91,17 @@ body.template-homepage-view .box a.two-lines:hover {
 #recensio_logo {
     margin-left: 20px;
 }
+div#portal-advanced-search {
+    display: none;
+}
 #navigation ul#portal-globalnav {
     padding-left: 0;
-}
-#navigation li {
-    text-transform: uppercase;
-    border-right: none;
 }
 ul#portal-globalnav li:first-child {
     padding-left: 20px;
 }
 #navigation a,
 #navigation a:visited {
-    font-family: 'Ubuntu', Arial, 'Neue Helvetica', sans-serif;
-    font-size: 125%;
-    color: #0060AA;
 }
 #navigation ul#portal-globalnav,
 #page_image {
@@ -70,7 +113,30 @@ ul#portal-globalnav li:first-child {
 .rounded_STYLE > .bl {
     background: none;
 }
+body.template-homepage-view .portletTALPortlet p {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+#latest_reviews_box ul li {
+    position: relative; 
+    margin-left: 19px;
+    padding-left: 0;
+}
+div#latest_reviews_box ul img {
+    display: none;
+}
+div#latest_reviewparts_box ul li {
+    background: none;
+    padding-left: 29px;
+}
+
 #footer p.logos {
+    text-align: center;
+}
+
+.column_footer {
     text-align: center;
 }
 .column_footer span {
@@ -103,11 +169,6 @@ textarea:focus {
 body.template-homepage-view .box a.one-line .play-button,
 body.template-homepage-view .box a.two-lines .play-button {
     fill: #A68331;
-}
-body.template-homepage-view .portletTALPortlet p {
-    border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
 }
 body.template-homepage-view .portletTALPortlet p .arrow {
     background-image: url(++resource++recensio.altertum.images/play-button_blue.png);

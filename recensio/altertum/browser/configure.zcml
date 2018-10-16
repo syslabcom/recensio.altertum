@@ -20,6 +20,14 @@
     layer="recensio.altertum.interfaces.IAltertumLayer"
     />
 
+  <browser:page
+    for="Products.ATContentTypes.interfaces.document.IATDocument"
+    name="homepage-view"
+    class=".views.AltertumHomepageView"
+    permission="zope2.View"
+    layer="recensio.altertum.interfaces.IAltertumLayer"
+    />
+
   <browser:viewlet
     name="bottom_links"
     manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
