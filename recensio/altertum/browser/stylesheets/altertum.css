@@ -1,3 +1,5 @@
+/* General */
+
 body {
 	background: #F1F1F1 0 0;
     color: #333333;
@@ -5,18 +7,46 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: #A68331;
 }
-a,
-.template-browse-topics .submenu_title {
+a {
     color: #0060AA;
-}
-.submenu_title svg.togglebutton path {
-    fill: #0060AA;
 }
 a:hover,
 a:focus {
     color: #23527c;
     text-decoration: underline;
 }
+
+body.template-homepage-view .portletTALPortlet p,
+#footer,
+#portletDownload,
+li.accordion-item {
+	background: #F1F1F1 0 0;
+}
+
+#container,
+#navigation ul,
+.login_links a,
+body.template-homepage-view .box a.one-line,
+body.template-homepage-view .box a.two-lines,
+#kommentare_container .reply {
+    background-color: #FFFFFF;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+#portal-searchbox input#searchGadget:focus,
+textarea:focus {
+    background-color: #FAFAFA;
+}
+
+.rounded_STYLE > .tr,
+.rounded_STYLE > .tl,
+.rounded_STYLE > .br,
+.rounded_STYLE > .bl {
+    background: none;
+}
+
+/* Page top */
 
 #portal-personaltools {
     visibility: hidden;
@@ -25,28 +55,32 @@ a:focus {
 #portal-searchbox {
     margin-top: 4.5em;
 }
-
 input#searchGadget {
     background: #fafafa;
     border: 1px solid #eeeeee;
     font-size: 1.2em;
 }
-
-#social-media-header {
-    float: right; 
-    margin-top: 2.1em;
+div#portal-advanced-search {
+    display: none;
 }
-
-#social-media-buttons-header {
-    width: 85%;
-}
-
 
 #language {
     position: absolute;
     top: 3.9em;
     right: 23%;  
 } 
+
+#recensio_logo {
+    margin-left: 20px;
+}
+
+#social-media-header {
+    float: right; 
+    margin-top: 2.1em;
+}
+#social-media-buttons-header {
+    width: 85%;
+}
 
 #navigation {
     float: left; 
@@ -68,55 +102,61 @@ input#searchGadget {
     font-style: normal;
     letter-spacing: 0.02em;
 }
-
-.searchResults .title a.state-published {
-    color: #0060AA !important;
-}
-dl.searchResults dt.foreign,
-dl.searchResults dd.foreign {
-    background-color: inherit;
-}
-#container,
-#navigation ul,
-.login_links a,
-body.template-homepage-view .box a.one-line,
-body.template-homepage-view .box a.two-lines,
-#kommentare_container .reply {
-    background-color: #FFFFFF;
-}
-body.template-homepage-view .box a.one-line:hover,
-body.template-homepage-view .box a.two-lines:hover {
-    text-decoration: none;
-}
-#recensio_logo {
-    margin-left: 20px;
-}
-div#portal-advanced-search {
-    display: none;
-}
 #navigation ul#portal-globalnav {
     padding-left: 0;
-}
-ul#portal-globalnav li:first-child {
-    padding-left: 20px;
-}
-#navigation a,
-#navigation a:visited {
 }
 #navigation ul#portal-globalnav,
 #page_image {
     border-radius: 0;
 }
-.rounded_STYLE > .tr,
-.rounded_STYLE > .tl,
-.rounded_STYLE > .br,
-.rounded_STYLE > .bl {
-    background: none;
+ul#portal-globalnav li:first-child {
+    padding-left: 20px;
+}
+
+/* Main content */
+
+li.accordion-item#citation dd {
+    margin-left: 0;
+}
+
+#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
+    display: none;
+}
+
+/* Footer */
+
+#footer p.logos {
+    text-align: center;
+}
+
+.column_footer {
+    text-align: center;
+}
+.column_footer span {
+    margin-left: 0;
+}
+
+/* Front page */
+
+body.template-homepage-view .box a.one-line:hover,
+body.template-homepage-view .box a.two-lines:hover {
+    text-decoration: none;
 }
 body.template-homepage-view .portletTALPortlet p {
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
+}
+body.template-homepage-view .portletTALPortlet p .redPortletHeader {
+    color: #A68331;
+}
+
+body.template-homepage-view .portletTALPortlet p .arrow {
+    background-image: url(++resource++recensio.altertum.images/play-button_blue.png);
+}
+body.template-homepage-view .box a.one-line .play-button,
+body.template-homepage-view .box a.two-lines .play-button {
+    fill: #A68331;
 }
 
 #latest_reviews_box ul li {
@@ -132,48 +172,22 @@ div#latest_reviewparts_box ul li {
     padding-left: 29px;
 }
 
-#footer p.logos {
-    text-align: center;
-}
+/* Search / Browsing */
 
-.column_footer {
-    text-align: center;
+.template-browse-topics .submenu_title {
+    color: #0060AA;
 }
-.column_footer span {
-    margin-left: 0;
-}
-
-
 .template-browse-topics .submenu-lvl2 {
    background-color: #F5F5F5;
 }
-
-body.template-homepage-view .portletTALPortlet p,
-#footer,
-#portletDownload,
-li.accordion-item {
-	background: #F1F1F1 0 0;
-}
-li.accordion-item#citation dd {
-    margin-left: 0;
-}
-body.template-homepage-view .portletTALPortlet p .redPortletHeader {
-    color: #A68331;
-}
-input[type="text"]:focus,
-input[type="password"]:focus,
-#portal-searchbox input#searchGadget:focus,
-textarea:focus {
-    background-color: #FAFAFA;
-}
-body.template-homepage-view .box a.one-line .play-button,
-body.template-homepage-view .box a.two-lines .play-button {
-    fill: #A68331;
-}
-body.template-homepage-view .portletTALPortlet p .arrow {
-    background-image: url(++resource++recensio.altertum.images/play-button_blue.png);
+.submenu_title svg.togglebutton path {
+    fill: #0060AA;
 }
 
-#content #secondary-nav-portlet.firstmenu li a[href=benutzerrichtlinien] {
-    display: none;
+.searchResults .title a.state-published {
+    color: #0060AA !important;
+}
+dl.searchResults dt.foreign,
+dl.searchResults dd.foreign {
+    background-color: inherit;
 }
