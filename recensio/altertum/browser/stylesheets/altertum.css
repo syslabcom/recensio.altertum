@@ -41,6 +41,17 @@ body.template-homepage-view .box a.one-line:hover,
 body.template-homepage-view .box a.two-lines:hover {
     text-decoration: none;
 }
+div#latest_reviewparts_box ul li {
+    background: none;
+   padding: 0 0 0.5em 0px;
+}
+div#latest_reviews_box ul > a {
+    display: none;
+}
+div#latest_reviews_box ul li {
+   padding: 0 0 0.5em 0px;
+   left: 0;
+}
 #recensio_logo {
     margin-left: 20px;
 }
