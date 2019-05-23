@@ -81,6 +81,9 @@ ul#portal-globalnav li:first-child {
 .rounded_STYLE > .bl {
     background: none;
 }
+#footer {
+    border-radius: 0;
+}
 #footer p.logos {
     text-align: center;
 }
