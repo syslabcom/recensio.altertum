@@ -5,9 +5,10 @@ from recensio.theme.browser.pdfgen import GeneratePdfRecension
 class GeneratePdfRecensionAltertum(GeneratePdfRecension):
     """Customized cover page
     """
-    logo_main = '++resource++recensio.altertum.images/logo2_fuer-Deckblatt.jpg'
+
+    logo_main = "++resource++recensio.altertum.images/logo2_fuer-Deckblatt.jpg"
 
 
 class AltertumHomepageView(HomepageView):
 
-    review_languages = [u'']
+    review_languages = [u""]
