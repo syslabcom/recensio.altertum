@@ -1,5 +1,5 @@
-from recensio.theme.browser.homepage import HomepageView
-from recensio.theme.browser.pdfgen import GeneratePdfRecension
+from recensio.plone.browser.homepage import HomepageView
+from recensio.plone.browser.pdfgen import GeneratePdfRecension
 
 
 class GeneratePdfRecensionAltertum(GeneratePdfRecension):
@@ -10,4 +10,5 @@ class GeneratePdfRecensionAltertum(GeneratePdfRecension):
 
 class AltertumHomepageView(HomepageView):
 
-    review_languages = [u""]
+    resource_directory = "++resource++recensio.altertum.images"
+    review_languages = [""]

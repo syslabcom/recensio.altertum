@@ -1,0 +1,17 @@
+<a id="portal-logo"
+   title="Home"
+   tal:attributes="
+     title view/navigation_root_title;
+   "
+   i18n:attributes="title"
+   i18n:domain="plone"
+>
+  <img id="recensio_logo"
+       alt="Altertum Logo"
+       src="++resource++recensio.altertum.images/de/logo_altertum.png"
+       title="Altertum"
+       tal:attributes="
+         src string:${here/portal_url}/++resource++recensio.altertum.images/logo_propylaeum_recensio_280px_transp.png;
+       "
+  />
+</a>

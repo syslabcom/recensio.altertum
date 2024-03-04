@@ -1,5 +1,5 @@
-from recensio.theme.interfaces import IRecensioLayer
+from recensio.plone.interfaces import IRecensioPloneLayer
 
 
-class IAltertumLayer(IRecensioLayer):
+class IAltertumLayer(IRecensioPloneLayer):
     pass
