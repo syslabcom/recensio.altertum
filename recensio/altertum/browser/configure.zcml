@@ -1,49 +1,49 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="recensio.altertum">
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="recensio.altertum"
+    >
 
-  <include package="z3c.jbot" file="meta.zcml" />
-  <browser:jbot directory="template_overrides"
-      layer="recensio.altertum.interfaces.IAltertumLayer" />
+  <include
+      package="z3c.jbot"
+      file="meta.zcml"
+      />
+  <browser:jbot
+      directory="overrides"
+      layer="recensio.altertum.interfaces.IAltertumLayer"
+      />
 
   <browser:resourceDirectory
-    name="recensio.altertum.images"
-    directory="images"
-    layer="recensio.altertum.interfaces.IAltertumLayer"
-    />
+      name="recensio.altertum.images"
+      directory="images"
+      layer="recensio.altertum.interfaces.IAltertumLayer"
+      />
 
   <browser:resourceDirectory
-    name="recensio.altertum.stylesheets"
-    directory="stylesheets"
-    layer="recensio.altertum.interfaces.IAltertumLayer"
-    />
+      name="recensio.altertum.styles"
+      directory="stylesheets"
+      layer="recensio.altertum.interfaces.IAltertumLayer"
+      />
 
-  <browser:viewlet
-    name="bottom_links"
-    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-    class="recensio.policy.browser.footer_viewlet.Footer"
-    template="templates/footer.pt"
-    permission="zope2.View"
-    layer="recensio.altertum.interfaces.IAltertumLayer"
-    />
-
-  <browser:page
-    for="recensio.contenttypes.interfaces.IReview"
-    name="generate-pdf-recension"
-    allowed_interface="recensio.theme.browser.interfaces.IGeneratePdfRecension"
-    class=".views.GeneratePdfRecensionAltertum"
-    permission="zope2.View"
-    layer="recensio.altertum.interfaces.IAltertumLayer"
-    />
+  <configure package="recensio.plone.browser">
+    <browser:page
+        name="homepage-view"
+        for="plone.app.contenttypes.interfaces.IDocument"
+        class="recensio.altertum.browser.views.AltertumHomepageView"
+        template="templates/homepage.pt"
+        permission="zope2.View"
+        layer="recensio.altertum.interfaces.IAltertumLayer"
+        />
+  </configure>
 
   <browser:page
-    for="Products.ATContentTypes.interfaces.document.IATDocument"
-    name="homepage-view"
-    class=".views.AltertumHomepageView"
-    permission="zope2.View"
-    layer="recensio.altertum.interfaces.IAltertumLayer"
-    />
+      name="generate-pdf-recension"
+      for="recensio.plone.interfaces.IReview"
+      class=".views.GeneratePdfRecensionAltertum"
+      allowed_interface="recensio.plone.browser.pdfgen.IGeneratePdfRecension"
+      permission="zope2.View"
+      layer="recensio.altertum.interfaces.IAltertumLayer"
+      />
 
 </configure>
