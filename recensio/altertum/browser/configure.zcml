@@ -46,4 +46,12 @@
       layer="recensio.altertum.interfaces.IAltertumLayer"
       />
 
+  <browser:page
+      name="vocabulary-helper"
+      for="*"
+      class=".views.AltertumVocabularyHelper"
+      permission="zope2.View"
+      layer="recensio.altertum.interfaces.IAltertumLayer"
+      />
+
 </configure>
