@@ -5,6 +5,7 @@
    "
    i18n:attributes="title"
    i18n:domain="plone"
+   href="/recensio-antiquitatis/"
 >
   <img id="recensio_logo"
        alt="Altertum Logo"
