@@ -1,8 +1,6 @@
-from setuptools import find_packages
-from setuptools import setup
+from setuptools import find_packages, setup
 
-
-version = "2.0.3.dev0"
+version = "2.1.0.dev0"
 
 setup(
     name="recensio.altertum",
@@ -30,7 +28,6 @@ setup(
     },
     license="GPL",
     packages=find_packages(exclude=["ez_setup"]),
-    namespace_packages=["recensio"],
     include_package_data=True,
     zip_safe=False,
     python_requires=">=3.10",
