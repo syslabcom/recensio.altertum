@@ -1,4 +1,4 @@
-TWINE_REPOSITORY ?= pypi
+TWINE_REPOSITORY ?= pypi.syslab.com
 
 .PHONY: release
 release:
