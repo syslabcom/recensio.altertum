@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.1.0 (unreleased)
+2.1.0 (2026-04-05)
 ------------------
 
 - Change to native namespace
