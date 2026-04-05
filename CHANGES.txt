@@ -1,6 +1,16 @@
 Changelog
 =========
 
+2.1.0 (unreleased)
+------------------
+
+- Change to native namespace
+  [pilz]
+
+- Add Makefile to make relases
+  [pilz]
+
+
 2.0.3 (2026-03-29)
 ------------------
 
